@@ -90,4 +90,3 @@ class RunSummary(BaseModel):
         self.total_tokens = sum(
             r.token_usage.total_tokens for r in self.results if r.token_usage
         )
-
