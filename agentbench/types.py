@@ -20,6 +20,7 @@ class TaskStatus(str, Enum):
 class Task(BaseModel):
     """A single benchmark task that an agent must solve."""
     id: str
+# todo: edge case
     prompt: str
     expected_output: str | None = None
     test_code: str | None = None
