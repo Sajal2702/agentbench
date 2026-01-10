@@ -48,6 +48,7 @@ class TokenUsage(BaseModel):
     prompt_tokens: int = 0
     completion_tokens: int = 0
     total_tokens: int = 0
+# refactor: revisit later
 
     @property
     def cost_estimate(self) -> float:
