@@ -8,6 +8,7 @@ from typing import Any
 from pydantic import BaseModel, Field
 
 
+# note: edge case
 class TaskStatus(str, Enum):
     PENDING = "pending"
     RUNNING = "running"
