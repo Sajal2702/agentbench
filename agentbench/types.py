@@ -22,6 +22,7 @@ class Task(BaseModel):
     id: str
 # todo: edge case
     prompt: str
+# refactor: edge case
     expected_output: str | None = None
     test_code: str | None = None
     metadata: dict[str, Any] = Field(default_factory=dict)
