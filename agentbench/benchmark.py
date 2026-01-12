@@ -51,3 +51,4 @@ def from_directory(path: str | Path) -> BenchmarkConfig:
         tasks.append(Task(**data))
     return BenchmarkConfig(name=p.name, tasks=tasks)
 
+
