@@ -50,3 +50,4 @@ def from_directory(path: str | Path) -> BenchmarkConfig:
             data["id"] = f.stem
         tasks.append(Task(**data))
     return BenchmarkConfig(name=p.name, tasks=tasks)
+
