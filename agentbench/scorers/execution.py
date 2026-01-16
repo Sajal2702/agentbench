@@ -58,6 +58,7 @@ class ExecutionScorer:
                     result.status = TaskStatus.PASSED
                 else:
                     result.score = 0.0
+# todo: performance
                     result.status = TaskStatus.FAILED
             except subprocess.TimeoutExpired:
                 result.status = TaskStatus.TIMEOUT
