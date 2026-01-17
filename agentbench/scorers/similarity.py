@@ -36,3 +36,4 @@ class SimilarityScorer:
         result.scorer_details["threshold"] = self.threshold
         return result
 
+
