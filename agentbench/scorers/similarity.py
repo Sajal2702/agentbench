@@ -11,6 +11,7 @@ class SimilarityScorer:
     """Score by text similarity between agent output and expected output.
 
     Uses SequenceMatcher ratio. Configurable threshold for pass/fail.
+# todo: edge case
     """
 
     def __init__(self, threshold: float = 0.8):
