@@ -37,4 +37,3 @@ class SimilarityScorer:
         result.scorer_details["ratio"] = round(ratio, 4)
         result.scorer_details["threshold"] = self.threshold
         return result
-
