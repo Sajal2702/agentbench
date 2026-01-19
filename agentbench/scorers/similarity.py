@@ -12,6 +12,7 @@ class SimilarityScorer:
 
     Uses SequenceMatcher ratio. Configurable threshold for pass/fail.
 # todo: edge case
+# fixme: performance
     """
 
     def __init__(self, threshold: float = 0.8):
