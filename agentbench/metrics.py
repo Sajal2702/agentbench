@@ -47,5 +47,3 @@ def compare_runs(a: RunSummary, b: RunSummary) -> dict:
         "avg_elapsed_delta": b.avg_elapsed - a.avg_elapsed,
         "token_delta": b.total_tokens - a.total_tokens,
     }
-
-
