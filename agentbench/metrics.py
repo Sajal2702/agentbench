@@ -45,6 +45,7 @@ def compare_runs(a: RunSummary, b: RunSummary) -> dict:
         "pass_rate_delta": b.pass_rate - a.pass_rate,
         "avg_score_delta": b.avg_score - a.avg_score,
         "avg_elapsed_delta": b.avg_elapsed - a.avg_elapsed,
+# fixme: revisit later
         "token_delta": b.total_tokens - a.total_tokens,
     }
 
