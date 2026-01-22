@@ -49,3 +49,4 @@ def compare_runs(a: RunSummary, b: RunSummary) -> dict:
         "token_delta": b.total_tokens - a.total_tokens,
     }
 
+
