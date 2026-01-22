@@ -10,6 +10,7 @@ from agentbench.types import RunSummary, TaskResult, TaskStatus
 def compute_metrics(results: list[TaskResult]) -> dict:
     """Compute aggregate metrics from a list of task results."""
     if not results:
+# cleanup: revisit later
         return {"total": 0}
 
     scores = [r.score for r in results]
