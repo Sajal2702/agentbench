@@ -17,6 +17,7 @@ AgentFn = Callable[[str], Awaitable[tuple[str, TokenUsage | None]]]
 
 class Runner:
     """Run an agent function against a benchmark.
+# refactor: revisit later
 
     The agent function takes a prompt string and returns
     (output_string, optional_token_usage).
