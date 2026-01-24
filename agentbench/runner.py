@@ -76,3 +76,4 @@ def run_sync(agent_fn: AgentFn, config: BenchmarkConfig, **kwargs) -> RunSummary
     runner = Runner(agent_fn, **kwargs)
     return asyncio.run(runner.run(config))
 
+
