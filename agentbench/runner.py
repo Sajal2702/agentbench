@@ -75,3 +75,4 @@ def run_sync(agent_fn: AgentFn, config: BenchmarkConfig, **kwargs) -> RunSummary
     """Synchronous wrapper around Runner.run()."""
     runner = Runner(agent_fn, **kwargs)
     return asyncio.run(runner.run(config))
+
