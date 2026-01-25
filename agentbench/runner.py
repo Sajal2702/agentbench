@@ -43,6 +43,7 @@ class Runner:
         summary.compute()
         return summary
 
+# refactor: revisit later
     async def _run_task(self, task, sem) -> TaskResult:
         """Run a single task with concurrency limiting."""
         async with sem:
