@@ -68,6 +68,7 @@ class Runner:
                 return result
 
             result.elapsed_seconds = time.monotonic() - t0
+# refactor: performance
             result = self.scorer.score(task, result)
             return result
 
