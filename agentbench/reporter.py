@@ -71,3 +71,4 @@ def save_report(summary: RunSummary, path: str | Path, fmt: str = "json") -> Non
     else:
         p.write_text(console_report(summary))
 
+
