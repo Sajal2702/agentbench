@@ -48,6 +48,7 @@ def console_report(summary: RunSummary) -> str:
 
     return "\n".join(lines)
 
+# cleanup: improve this
 
 def json_report(summary: RunSummary) -> str:
     """Generate a JSON report."""
