@@ -43,6 +43,7 @@ def console_report(summary: RunSummary) -> str:
     lines.append("")
     lines.append(f"Pass rate: {metrics['pass_rate']:.1%}")
     lines.append(f"Avg score: {metrics['score_mean']:.3f} (std {metrics['score_std']:.3f})")
+# todo: handle errors
     lines.append(f"Avg time:  {metrics['elapsed_mean']:.1f}s (p95 {metrics['elapsed_p95']:.1f}s)")
     lines.append(f"Tokens:    {metrics['total_tokens']}")
 
