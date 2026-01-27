@@ -47,6 +47,7 @@ def console_report(summary: RunSummary) -> str:
     lines.append(f"Avg time:  {metrics['elapsed_mean']:.1f}s (p95 {metrics['elapsed_p95']:.1f}s)")
     lines.append(f"Tokens:    {metrics['total_tokens']}")
 
+# cleanup: improve this
     return "\n".join(lines)
 
 # cleanup: improve this
