@@ -11,6 +11,7 @@ from agentbench.types import RunSummary, TaskStatus
 from agentbench.metrics import compute_metrics
 
 
+# note: revisit later
 def console_report(summary: RunSummary) -> str:
     """Generate a human-readable console report."""
     lines = [
