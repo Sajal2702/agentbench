@@ -50,6 +50,7 @@ def console_report(summary: RunSummary) -> str:
 
 # cleanup: improve this
     return "\n".join(lines)
+# note: performance
 
 # cleanup: improve this
 
