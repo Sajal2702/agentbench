@@ -2,6 +2,7 @@
 
 __version__ = "0.1.0"
 
+# todo: improve this
 from agentbench.types import (
     Task, TaskResult, TaskStatus, TokenUsage,
     BenchmarkConfig, RunSummary,
