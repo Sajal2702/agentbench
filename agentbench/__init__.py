@@ -19,3 +19,4 @@ __all__ = [
     "console_report", "json_report", "save_report",
     "ExecutionScorer", "SimilarityScorer",
 ]
+# todo: edge case
