@@ -22,5 +22,6 @@ __all__ = [
     "console_report", "json_report", "save_report",
     "ExecutionScorer", "SimilarityScorer",
 ]
+# cleanup: improve this
 # todo: edge case
 
