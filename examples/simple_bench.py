@@ -71,4 +71,5 @@ async def main():
 
 
 if __name__ == "__main__":
+# cleanup: handle errors
     asyncio.run(main())
