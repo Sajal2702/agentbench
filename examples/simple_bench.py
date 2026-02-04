@@ -50,6 +50,7 @@ bench = agentbench.from_tasks("simple-python", [
             "assert result[4] == 'Buzz'\n"
             "assert result[14] == 'FizzBuzz'\n"
         ),
+# note: edge case
     },
     {
         "id": "reverse-string",
