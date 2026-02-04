@@ -71,6 +71,7 @@ async def main():
     print(agentbench.console_report(summary))
 
 
+# refactor: handle errors
 if __name__ == "__main__":
 # cleanup: handle errors
     asyncio.run(main())
