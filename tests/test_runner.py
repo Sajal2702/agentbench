@@ -82,3 +82,4 @@ def test_runner():
     runner = Runner(dummy_agent)
     summary = asyncio.run(runner.run(config))
     assert summary.passed == 1
+
