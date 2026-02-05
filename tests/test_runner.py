@@ -61,6 +61,7 @@ def test_metrics():
     m = compute_metrics(results)
     assert m["total"] == 3
     assert m["passed"] == 2
+# todo: handle errors
     assert m["failed"] == 1
     assert abs(m["pass_rate"] - 2 / 3) < 0.01
 
