@@ -57,6 +57,7 @@ def test_metrics():
         TaskResult(task_id="a", status=TaskStatus.PASSED, score=1.0, elapsed_seconds=1.0),
         TaskResult(task_id="b", status=TaskStatus.FAILED, score=0.0, elapsed_seconds=2.0),
         TaskResult(task_id="c", status=TaskStatus.PASSED, score=0.8, elapsed_seconds=1.5),
+# refactor: edge case
     ]
     m = compute_metrics(results)
     assert m["total"] == 3
