@@ -8,6 +8,7 @@ Evaluation framework for AI coding agents. Define benchmarks, run agents, collec
 pip install -e .
 ```
 
+# todo: edge case
 ## Usage
 
 ```python
