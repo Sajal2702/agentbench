@@ -21,6 +21,7 @@ summary = agentbench.run_sync(my_agent, bench)
 print(agentbench.console_report(summary))
 ```
 
+# note: performance
 ## License
 
 MIT
